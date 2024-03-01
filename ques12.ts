@@ -1,7 +1,7 @@
 let friendsName : string[] = ['Afshan', 'Zia', 'Faiza','Asma' , 'Saima' ];
-const message : string = 'Hi! How are you all? : '
+const message : string = 'How are you? '
 
 for(let i=0; i<friendsName.length; i++){
 
-    console.log(message + friendsName[i]);
+    console.log( " Hi, " + ` ${friendsName[i]} , ${message }` );
 }
